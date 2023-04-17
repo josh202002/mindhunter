@@ -9,7 +9,7 @@ background:black;
 .about{
     background-color: #981111bd;
     border-radius: 30px;
-    padding-bottom:30px;
+    padding-bottom:242px;
     padding-top:30px;
     width:50%;
     margin-left:25%
@@ -20,7 +20,7 @@ background:black;
     font-family: Jost;
     font-weight: 800;
     color:  #ffe4bf;
-    
+    margin-top:15px;
 }
 .ab{
     margin-top: 81px;
@@ -42,11 +42,11 @@ background:black;
 }
 
 .box{
-    width:630px;
+    width:587px;
     height:80px;
-    margin-top:100px;
+    margin-top:40px;
     font-size: 48px;
-    border-radius: 20px;
+    border-radius: 30px;
     margin-left:25%;
 }
 .gun{
@@ -60,5 +60,5 @@ background:black;
     top:-75px;
     border: 2px solid #ffe4bf;
     border-radius:5px;
-    left:-355px;
+    left:-338px;
 }
