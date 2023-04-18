@@ -30,7 +30,7 @@ scale: none;
     margin-top:15px;
 }
 .ab{
-    margin-top: 48px;
+    margin-top: 20px;
 }
 .aboutt{
     text-align: center;
@@ -76,4 +76,10 @@ scale: none;
     position:relative;
     left:43%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.image img {
+    position: fixed;
+    top: 370px;
+    height: 137px;
+    left: 500px;
 }
