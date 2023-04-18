@@ -44,15 +44,16 @@ body{
 .start{
     color:white;
     position:fixed;
-    top:70%;
-    margin-left:16%;
-    font-size: 26px;
+    top:75%;
+    margin-left:14%;
+    font-size: 24px;
     border:1mm solid white;
     border-spacing: 5px;
     padding:12px;
     border-radius: 25px;
     font-family: Jost;
     letter-spacing: .2cm;
+    text-decoration: none;
 }
 .start:hover{
     border-color:#be1010e0;
