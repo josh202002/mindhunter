@@ -51,7 +51,7 @@ scale: none;
 
 .box{
     width:43%;
-    height:45px;
+    height:40px;
     margin-top:25px;
     font-size: 48px;
     border-radius: 30px;
@@ -79,12 +79,32 @@ scale: none;
     left:43%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 .image img {
     position: fixed;
     top: 370px;
     height: 137px;
     left: 37%;
 }
+.image1 img {
+    position: fixed;
+    top: 370px;
+    height: 75px;
+    left: 37%;
+}
+.image4 img {
+    position: fixed;
+    top: 370px;
+    height: 100px;
+    left: 37%;
+}
+.image5 img {
+    position: fixed;
+    top: 370px;
+    height: 60px;
+    left: 37%;
+}
+
 .about h6 {
     font-size: 12px;
     font-family: Jost;
