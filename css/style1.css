@@ -31,12 +31,12 @@ body{
     overflow: hidden;   
 }
 .indbox1 {
-    height: 780px;
+    height: 760px;
     width: 400px;
     background-color: #be1010e0;
     position: fixed;
     /* right: -50%; */
-    top: -45%;
+    top: -50%;
     left: 39%;
     transform: rotate(320deg);
     overflow: hidden;
@@ -44,5 +44,17 @@ body{
 .start{
     color:white;
     position:fixed;
-    top:75%;
+    top:70%;
+    margin-left:16%;
+    font-size: 26px;
+    border:1mm solid white;
+    border-spacing: 5px;
+    padding:12px;
+    border-radius: 25px;
+    font-family: Jost;
+    letter-spacing: .2cm;
+}
+.start:hover{
+    border-color:#be1010e0;
+    transition-duration: .5s;
 }
