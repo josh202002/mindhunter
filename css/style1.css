@@ -25,5 +25,7 @@ body{
     position: relative;
     right:-78%;
     transform: rotate(50deg);
+    overflow: hidden;
+    
     
 }
