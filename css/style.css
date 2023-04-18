@@ -42,7 +42,7 @@ background:black;
 }
 
 .box{
-    width:587px;
+    width:40%;
     height:80px;
     margin-top:40px;
     font-size: 48px;
@@ -63,4 +63,9 @@ background:black;
 .gun img:hover{
     border-color:#981111bd;
     transition: .5s;
+}
+#demo{
+    color:white;
+    position:relative;
+    left:50%;
 }
