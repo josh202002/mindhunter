@@ -4,10 +4,11 @@
 }
 body{
 background:black;
+scale: none;
 }
 
 .about{
-    background-color: #981111bd;
+    background-color: #be1010e0;
     border-radius: 30px;
     padding-bottom:242px;
     padding-top:30px;
