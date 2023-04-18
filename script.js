@@ -5,7 +5,7 @@ function pg1(){
         window.location.assign("acideg2.html")
     }
     else {
-        paa="Invalid Answer"
+        paa="Sorry! Wrong Answer"
     }
     document.getElementById("demo").innerHTML=paa;
 }

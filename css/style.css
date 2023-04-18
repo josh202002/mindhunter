@@ -23,7 +23,7 @@ background:black;
     margin-top:15px;
 }
 .ab{
-    margin-top: 81px;
+    margin-top: 48px;
 }
 .aboutt{
     text-align: center;
@@ -42,7 +42,7 @@ background:black;
 }
 
 .box{
-    width:30%;
+    width:43%;
     height:80px;
     margin-top:40px;
     font-size: 48px;
@@ -67,5 +67,6 @@ background:black;
 #demo{
     color:white;
     position:relative;
-    left:50%;
+    left:43%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
