@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Jost;
+    src: url(Jost-Regular.ttf);
+}
+body{
+    background-color:black;
+    overflow: hidden;
+}
+.hero h2{
+    color:white;
+    font-family: Jost;
+    font-size: 72px;
+    position: fixed;
+    top:60%;
+    left:5%;
+}
+.spncla{
+    color:#be1010e0;
+    font-weight: 900;
+}
+.indbox{
+    height:760px;
+    width:400px;
+    background-color:#be1010e0;
+    position: relative;
+    right:-78%;
+    transform: rotate(50deg);
+    
+}
