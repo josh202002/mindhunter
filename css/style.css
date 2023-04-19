@@ -37,12 +37,12 @@ scale: none;
 }
 .para{
     margin-bottom: 30px;
-    margin-right:90px;
-    margin-left:90px;
+    margin-right:30px;
+    margin-left:30px;
     text-align: justify;
     font-family: 'Jost', sans-serif;
     color: #f1ffb5a1;
-    margin-top:-3%;
+    margin-top:-4%;
 }
 .aboutt para{
     text-align: center;
@@ -109,15 +109,15 @@ scale: none;
     font-size: 12px;
     font-family: Jost;
     color: white;
-    margin-left: -195px;
+    margin-left: -460px;
     letter-spacing: .2mm;
 }
 .findings {
-    width: 26%;
+    width: 32%;
     text-align: justify;
     position: fixed;
-    left: 495px;
-    top: 297px;
+    left: 365px;
+    top: 315px;
     font-family: Jost;
     font-size: 13px;
     color:#ffe4bf8a;
