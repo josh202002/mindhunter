@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms2</title>
+</head>
+<body>
+    <form action>
+        <label for="mycolor">Select Color</label>
+        <input type="color" value="red" id="mycolor">
+        <br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="bod" id="dob">
+        <br><br>
+        <label for="datemin">Enter a date after 2000-01-01</label>
+        <input type="date" id="datemin" name="datemin" min="2000-01-01">
+        <br><br>
+        <label for="datemax">Enter a date before 1979-01-01</label>
+        <input type="date" id="datemax" name="datemax" max="1979-01-01">
+        <br><br>
+        <label for="mydatetime">Choose Date and time</label>
+        <input type="datetime-local" id="mydatetime">
+        <br><br>
+        <label for="myemail">Enter the email address</label>
+        <input type="email" id="myemail" required>
+        <br><br>
+        <label for="mymonth">select month</label>
+        <input type="month" id="mymonth">
+        <br><br>
+        <label for="mynumber">Enter a number</label>
+        <input type="number" min="1" max="10" step="1" id="mynumber">
+        <br><br>
+        <label for="vol">Volumn(between 0 and 50)</label>
+        <input type="range" id="vol" name="vol" min="0" max="50">
+        <br><br>
+        <label for="myphone">Telephone Number</label>
+        <input type="tel" id="myphone" placeholder="xx-xxxx-xxxx" maxlength="10" minlength="10" required>
+        <br><br>
+        <label for="myweek">Select week</label>
+        <input type="week" id="myweek">
+        <br><br>
+        <input type="submit" value="submit">
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <input id="numb">
+    <button type="button" onclick="myFunction()">Submit</button>
+    <p id="demo"></p>
+    <script>
+        p= prompt("")
+        function myFunction(){
+            let x=document.getElementById("numb").value;
+            let text;
+            if(isNaN(x)||  x<50 ){
+                text = "Failed";
+            }
+            else{
+                text = "Pass";
+            }
+            document.getElementById("demo").innerHTML = text;
+        }
+    </script>
+</body>
+</html>

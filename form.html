@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <form action="action.php" method="post">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" size="60cm" maxlength="5" minlength="2" placeholder="Enter username" required >
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" >
+        <br><br>
+        <label for="name">Name</label>
+        <input type="name" name="name" id="name" >
+        <br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" value="2022-10-07" id="dob">
+        <br><br>
+        <fieldset>
+            <legend>Contact Details</legend>
+            <label>Email address: <input type="email" name="email" required></label>
+            <label>Phone Number: <input type="text" name="phone"></label>
+        </fieldset><br><br>
+        <label for="file-select">Upload photo</label>
+        <input type="file" name="upload" id="file-select">
+        <br><br>
+        <label for="semester">Semester</label>
+        <input type="semester" name="semester" id="semester" readonly placeholder="S5"  readonly value="S5" >
+        <br><br>
+        <input type="radio" name="dept" id="Information Technology">
+        <label for ="Information Technology">Information Technology</label>
+        <input type="radio" name="dept" id="Computer Science">
+        <label for ="Computer Science">Computer Science</label>
+        <input type="radio" name="dept" id="Mechanical Engineering">
+        <label for ="Mechanical Engineering">Mechanical Engineering</label>
+        <input type="radio" name="dept" id="Food Technology">
+        <label for ="Food Technology">Food Technology</label>
+        <br><br>
+        <label for="address">Address</label>
+        <textarea name="Text1" cols="40" rows="5" placeholder="Address"></textarea><br><br>
+        <label for="city">City</label>
+        <select name="city" id="city">
+            <option value="Select city">Select City</option>
+            <option value="Calicut">Calicut</option>
+            <option value="Kottayam">Kottayam</option>
+            <option value="Ernakulam">Ernakulam</option>
+            <option value="Kannur">Kannur</option>
+            <option value="Trivandrum">Trivandrum</option>
+        </select>
+        <br><br>
+        <input type="radio" name="gender" id="male">
+        <label for ="male">Male</label>
+        <input type="radio" name="gender" id="female">
+        <label for ="female">Female</label>
+        <br><br>
+        <input type="checkbox" name="sports" id="soccer">
+        <label for ="soccer">Soccer</label>
+        <input type="checkbox" name="sports" id="cricket">
+        <label for ="cricket">Cricket</label>
+        <input type="checkbox" name="sports" id="baseball">
+        <label for ="baseball">Baseball</label>
+        <br><br>
+        <input type="checkbox" name="hobbies" id="reading">
+        <label for ="reading">Reading</label>
+        <input type="checkbox" name="hobbies" id="music">
+        <label for ="music">Music</label>
+        <input type="checkbox" name="hobbies" id="sleeping">
+        <label for ="sleeping">Sleeping</label>
+        <br><br>
+        <label for="mycolor">Select Color</label>
+        <input type="color" value="#00ff00" id="mycolor">
+        <br><br>
+        <input type="submit" value="Submit" >
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

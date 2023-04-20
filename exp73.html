@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/examples/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".btn-one").click(function(){
+                $("p").text("This is demo text.");
+            });
+            $(".btn-two").click(function(){
+                $("p:first").text("This is demo text.");
+            });
+             $(".btn-three").click(function(){
+                $("p.empty").text("This is demo text.");
+            });
+        });
+    </script>
+</head>
+<body>
+    <button type="button" class="btn-one">Set All Paragraph's Text</button>
+    <button type="button" class="btn-two">Set All Paragraph's Text</button>
+    <button type="button" class="btn-three">Set All Paragraph's Text</button>
+    <p>This is a test para</p>
+    <p>This is another tset para</p>
+    <p class="empty"></p>
+
+</body>
+</html>
