@@ -36,7 +36,7 @@ body{
     background-color: #be1010e0;
     position: fixed;
     /* right: -50%; */
-    top: -50%;
+    top: -48%;
     left: 39%;
     transform: rotate(320deg);
     overflow: hidden;
