@@ -85,7 +85,7 @@ scale: none;
 #demo{
     color:white;
     position:relative;
-    left:43%;
+    left:42%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top:0px;
 }
@@ -94,44 +94,45 @@ scale: none;
     position: fixed;
     top: 400px;
     height: 137px;
-    left: 37%;
+    left: 490px;
+    transition:none;
 }
 .image2 img {
     position: fixed;
     top: 371px;
     height: 137px;
-    left: 37%;
+    left: 490px;
 }
 
 .image1 img {
     position: fixed;
     top: 370px;
     height: 75px;
-    left: 37%;
+    left: 470px;
 }
 .image4 img {
     position: fixed;
     top: 370px;
     height: 100px;
-    left: 34%;
+    left: 460px;
 }
 .image5 img {
     position: fixed;
     top: 370px;
     height: 60px;
-    left: 37%;
+    left: 490px;
 }
 .image55 img {
     position: fixed;
     top: 370px;
     height: 60px;
-    left: 34%;
+    left: 460px;
 }
 .image16 img {
     position: fixed;
     top: 410px;
     height: 75px;
-    left: 37%;
+    left: 450PX;
 }
 
 .about h6 {
@@ -142,7 +143,7 @@ scale: none;
     letter-spacing: .2mm;
 }
 .findings {
-    width: 32%;
+    width: 400px;
     text-align: justify;
     position: fixed;
     left: 450px;
@@ -151,8 +152,18 @@ scale: none;
     font-size: 13px;
     color:#ffe4bf8a;
 }
+.findings6 {
+    width: 400PX;
+    text-align: justify;
+    position: fixed;
+    left: 450px;
+    top: 295px;
+    font-family: Jost;
+    font-size: 13px;
+    color:#ffe4bf8a;
+}
 .findings5 {
-    width: 32%;
+    width: 400px;
     text-align: justify;
     position: fixed;
     left: 450px;
@@ -162,7 +173,7 @@ scale: none;
     color:#ffe4bf8a;
 }
 .findings2 {
-    width: 32%;
+    width: 400px;
     text-align: justify;
     position: fixed;
     left: 450px;
@@ -172,7 +183,7 @@ scale: none;
     color:#ffe4bf8a;
 }
 .findings3 {
-    width: 32%;
+    width: 400px;
     text-align: justify;
     position: fixed;
     left: 450px;

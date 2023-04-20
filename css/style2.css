@@ -21,30 +21,22 @@ body{
     color:#be1010e0;
     font-weight: 900;
 }
-.indbox{
-    height:766px;
-    width:400px;
-    background-color:#be1010e0;
-    position: relative;
-    right:-79%;
-    transform: rotate(50deg);
-    overflow: hidden;   
-}
+
 .indbox1 {
-    height: 760px;
-    width: 400px;
+    height: 1200px;
+    width: 800px;
     background-color: #be1010e0;
     position: fixed;
     /* right: -50%; */
-    top: -50%;
-    left: 39%;
-    transform: rotate(320deg);
+    top: -70%;
+    left: 53%;
+    transform: rotate(330deg);
     overflow: hidden;
 }
 .start{
     color:white;
     position:fixed;
-    top:77%;
+    top:75%;
     margin-left:14%;
     font-size: 24px;
     border:1mm solid white;
@@ -58,4 +50,17 @@ body{
 .start:hover{
     border-color:#be1010e0;
     transition-duration: .5s;
+}
+.endparaa {
+    font-size: 17px;
+    z-index: 1;
+    position: sticky;
+    margin-left: 67px;
+    width: 710px;
+    text-align: justify;
+    font-family: 'Jost';
+    font-weight: 600;
+    color: #ffdcdf9c;
+    letter-spacing: .2pc;
+    margin-top: 490px;
 }
